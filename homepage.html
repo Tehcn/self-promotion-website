@@ -14,12 +14,40 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="navbar">
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+<ul>
+  <li><a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
+  <li><a href="#"><i class="fa fa-fw fa-search"></i> Search</a></li>
+  <li><a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+  <li><a href="#"><i class="fa fa-fw fa-user"></i> Login</a></li>
+</ul>
 </div>
 			</div>
+			<style>
+                ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+			</style>
 		</div>
 	</body>
 </html>
