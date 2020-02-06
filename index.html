@@ -48,6 +48,29 @@ li a:hover {
   background-color: #111;
 }
 			</style>
+			<!-- Start Website UI React Script -->
+			<script type = "text/babel">
+				//Important Variables
+				var websiteName = "AnythingStreams";
+				
+				//
+				
+				//Main Page Class
+				class mainPage extends React.Component {
+					render() {
+						return (
+							<div className = "mainPage">
+								<p>{this.props.name}</p>
+							</div>
+						);
+					}
+				}
+				
+				ReactDOM.render {
+					<HomePage name = "AnythingStreams"/>,
+					document.getElementById("root");
+				}
+			</script>
 		</div>
 	</body>
 </html>
